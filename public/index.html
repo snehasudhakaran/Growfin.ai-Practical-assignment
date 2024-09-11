@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/growfin.png" type="image/x-icon">
+    <title>Growfin.ai</title>
+
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- custom css -->
+    <link href="./index.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="bg-white shadow-md px-10 pt-8 pb-4 navbar">
+            <div class="container mx-auto flex justify-between items-end">
+                <!-- Navbar Title -->
+                <div class="text-2xl font-bold text-gray-800 ">
+                    <div class=" flex justify-end"><img src="./assets/images/growfin.png" alt="growfinLogo"width="40px" height="30px"></div>
+                    <div><img src="./assets/images/Growfin.svg" alt="growfinLogo" width="98px" height="21px"></div>
+                </div>
+
+                <!-- Navbar Buttons -->
+                <div class="hidden md:flex space-x-4 buttons">
+                    <button class="flex items-center px-6 font-semibold justify-center">
+                        Schedule a Demo
+                    </button>
+                    <button class="flex items-center px-6 font-semibold justify-center">
+                        Request Access
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner-container px-6">
+        <div class="container mx-auto py-4 lg:py-20">
+            <!-- Flex container for both sections -->
+            <div class="flex flex-col lg:flex-row gap-8 gap-y-0">
+                <!-- First Section -->
+                <div class="flex-1 text-center lg:text-left mb-12 lg:mb-0">
+                    <h1 class="text-[25px] md:text-[40px] lg:text-[60px] font-bold mb-4 lg:mb-6 banner-title">Real-Time <br>Cash Application Software</h1>
+                    <p class=" text-[15px] md:text-[20px]  mb-10 lg:mb-20 banner-text">Radically minimize manual intervention and achieve same-day closure with Growfin’s ML-powered Cash Application that delivers accurate, touchless posting.</p>
+                    <div class="buttons flex flex-col sm:flex-row justify-center lg:justify-start gap-4 ">
+                        <button class="flex items-center px-8 font-semibold justify-center">
+                            Schedule a Demo
+                        </button>
+                        <button class="flex items-center px-8 font-semibold justify-center">
+                            Request Access
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Second Section -->
+                <div class="flex-1 flex justify-center items-center">
+                    <!-- Adjust image sizes and positioning as needed -->
+                    <img src="./assets/images/banner-section.svg" alt="Image 1" class="">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="early-customers px-6 py-10 lg:py-20">
+        <div class="container mx-auto  pb-5 pb-10">
+            <h1 class="text-[25px] md:text-[30px] lg:text-[52px] font-bold  text-center early-customers-title ">What our Early Customers<br> have Already Achieved</h1>
+        </div>
+        <div class="container mx-auto flex flex-col lg:flex-row gap-8">
+                <!-- First Container: Image -->
+                <div class="flex-1">
+                    <img src="./assets/images/Portrait_Business.png" alt="Example Image" class="w-full h-auto object-cover rounded-lg">
+                </div>
+                
+                <!-- Second Container: Nested Containers -->
+                <div class="flex-1 flex flex-col gap-10 justify-center items-center">
+                    <!-- Row 1 -->
+                    <div class="flex flex-col md:flex-row gap-4 gap-y-2 items-center md:items-end border-b-2">
+                        <div class="py-4  rounded-lg">
+                            <img src="./assets/images/dollar.svg" width="52px" height="52px"/>
+                        </div>
+                        <div class=" w-[150px] py-2  rounded-lg text-center">
+                            <h2 class="text-[40px] font-bold ">90%</h2>
+                           
+                        </div>
+                        <div class=" py-4  rounded-lg md:w-[300px]">
+                            <p>Increase in same-day invoice posting  </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 2 -->
+                    <div class="flex flex-col md:flex-row gap-4  gap-y-2 items-center md:items-end border-b-2">
+                        <div class="py-4  rounded-lg">
+                            <img src="./assets/images/clock.svg" width="52px" height="52px"/>
+                        </div>
+                        <div class=" w-[150px] py-2  rounded-lg text-center">
+                            <h2 class="text-[40px] font-bold ">70%</h2>
+                           
+                        </div>
+                        <div class=" py-4  rounded-lg md:w-[300px]">
+                            <p>Increase in same-day invoice posting   </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 3 -->
+                    <div class="flex flex-col md:flex-row gap-4 gap-y-2 items-center md:items-end border-b-2">
+                        <div class="py-4  rounded-lg">
+                            <img src="./assets/images/setting.svg" width="52px" height="52px"/>
+                        </div>
+                        <div class=" w-[150px] py-2  rounded-lg text-center">
+                            <h2 class="text-[40px] font-bold ">75%</h2>
+                           
+                        </div>
+                        <div class=" py-4  rounded-lg md:w-[300px] ">
+                            <p>Increase in automation for manual Cash Application   </p>
+                        </div>
+                    </div>
+
+                    <!-- Row 4 -->
+                    <div class="flex flex-col md:flex-row gap-4  gap-y-2 items-center md:items-end border-b-2">
+                        <div class="py-4  rounded-lg">
+                            <img src="./assets/images/people.svg" width="52px" height="52px"/>
+                        </div>
+                        <div class=" w-[150px] py-2  rounded-lg text-center">
+                            <h2 class="text-[40px] font-bold ">100%</h2>
+                           
+                        </div>
+                        <div class=" py-4  rounded-lg md:w-[300px]">
+                            <p>Increase in same-day invoice posting </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <section class="container px-20 py-20 mx-auto">
+            <div class="flex flex-col sm:flex-row gap-x-40 justify-center items-center gap-y-20">
+                <!-- Container 1 -->
+                <div class="justify-center ">
+                    <img src="./assets/images/mindtickle.png" alt="Image 1" class=" h-[26px] rounded-lg">
+                </div>
+                
+                <!-- Container 2 -->
+                <div class=" justify-center">
+                    <img src="./assets/images/logo-Locus.png" alt="Image 2" class=" h-[30px]  rounded-lg">
+                </div>
+                
+                <!-- Container 3 -->
+                <div class=" justify-center">
+                    <img src="./assets/images/logo-darwinbox.png" alt="Image 3" class="h-[34px]  rounded-lg">
+                </div>
+            </div>
+        </section>
+        <section class="container px-20 mx-auto quotes">
+            <div class="text-center mb-8">
+                <div class="flex justify-center items-center mb-8">
+                    <img src="./assets/images/comma.png" alt="comma">
+                </div>
+                <p class="font-semibold text-[15px] md:text-[24px] mb-8">"Growfin’s Cash Application has helped us streamline the entire cash application<br> process with less manual intervention & timely posting of payments. We were able<br> to achieve one of our key objectives within months of going live."</p>
+                <p class="font-semibold">– Rohit Namboodiri, <span class="font-normal text-[14px] md:text-[18px]">AR Manager, Locus</span></p>
+            </div>
+            <div class="prev-buttons flex justify-center gap-3">
+                <div class="w-3 h-3"></div>
+                <div class="w-3 h-3"></div>
+            </div>
+        </section>
+    </section>
+
+    <section class="px-4 text-start experience">
+        <div class="container mx-auto  py-20">
+            <!-- Parent Container with Flexbox -->
+            <div class="flex flex-col md:flex-row gap-6 mb-16">
+              
+              <!-- First Container -->
+              <div class="flex-1 ">
+                <h1 class="text-[25px] md:text-[30px] lg:text-[52px] font-bold  early-customers-title ">Experience <br>Cash Application Perfection</h1>
+              </div>
+          
+              <!-- Second Container -->
+              <div class="flex-1 flex justify-start items-end text-[15px] md:text-[24px]">
+                
+                <p>Achieve touchless cash application to enable faster and accurate financial reporting for your business and a better experience for your customers.</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 gap-y-8 ">
+                <!-- Box 1 -->
+                <div class=" rounded bg-white p-[30px]">
+                    <img src="./assets/images/set.svg" class="mb-[10px]" width="70px" height="70px" />
+                <h1 class="text-[14px] py-3 font-bold text-[20px] md:text-[22px] mb-[20px]">Automate Cash Application</h1>
+                <p class="text-[15px] md:text-[18px]">Auto-match payments and extract remittances from even unstructured data, and achieve straight-through posting.</p>
+                </div>
+                <!-- Box 2 -->
+                <div class=" rounded bg-white p-[30px]">
+                    <img src="./assets/images/check.svg" class="mb-[10px]" width="70px" height="70px" />
+                <h1 class="text-[14px] py-3 font-bold text-[20px] md:text-[22px] mb-[20px]">Achieve Exceptional Accuracy</h1>
+                <p class="text-[15px] md:text-[18px]">Ensure precise payment matching, even with partial or overpayments, to reduce posting errors and compliance nightmares.</p>
+                </div>
+                <!-- Box 3 -->
+                <div class=" rounded bg-white p-[30px]">
+                    <img src="./assets/images/eye.svg" class="mb-[10px]" width="70px" height="70px" />
+                <h1 class="text-[14px] py-3 font-bold text-[20px] md:text-[22px] mb-[20px]">Deliver Real-time Visibility</h1>
+                <p class="text-[15px] md:text-[18px]">Gain real-time visibility into cash flow and AR aging to optimize collection strategies and improve forecasting accuracy.</p>
+                </div>
+                <!-- Box 4 -->
+                <div class=" rounded bg-white p-[30px]">
+                    <img src="./assets/images/smiley.svg" class="mb-[10px]" width="70px" height="70px" />
+                <h1 class="text-[14px] py-3 font-bold text-[20px] md:text-[22px] mb-[20px]">Enhance Customer Experience</h1>
+                <p class="text-[15px] md:text-[18px]">Avoid disputes, incorrect follow-ups and improve customer satisfaction with real-time, touchless cash applications.</p>
+                </div>
+            </div>
+            <div class="buttons flex flex-col sm:flex-row justify-center mt-10 gap-4 ">
+                <button class="flex items-center px-8 font-semibold justify-center">
+                    Schedule a Demo
+                </button>
+                <button class="flex items-center px-8 font-semibold justify-center">
+                    Request Access
+                </button>
+            </div>
+          </div>
+    </section>
+
+    <section class="px-4 text-start transform">
+        <div class="container mx-auto  pt-20">
+            <!-- Parent Container with Flexbox -->
+            <div class="flex flex-col md:flex-row gap-6 mb-16">
+              
+              <!-- First Container -->
+              <div class="flex-1 ">
+                <h1 class="text-[25px] md:text-[30px] lg:text-[52px] font-bold  early-customers-title ">Transform Your<br> Cash Application Process</h1>
+              </div>
+          
+              <!-- Second Container -->
+              <div class="flex-1 flex justify-start items-end text-[15px] md:text-[24px]">
+                
+                <p>Achieve touchless posting for 90% of payments while still retaining control over exceptions that need a little extra human touch.</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-4 gap-y-8 text-center">
+                <div class="border-b-4 pb-1 border-[#1E40AF] text-[#1E40AF]">
+                    <h1 class="text-[16px] md:text-[20px] font-bold">Instant Capture</h1>
+                </div>
+                <div>
+                    <h1 class="text-[15px] md:text-[18px] font-normal ">Accurate Match</h1>
+                </div>
+                <div>
+                    <h1 class="text-[15px] md:text-[18px] font-normal">Remittance Extraction</h1>
+                </div>
+                <div>
+                    <h1 class="text-[15px] md:text-[18px] font-normal">Exceptions Handling</h1>
+                </div>
+                <div>
+                    <h1 class="text-[15px] md:text-[18px] font-normal">Touchless Posting</h1>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-6 mt-10">
+              
+                <!-- First Container -->
+                <div class="flex-1 ">
+                  <h1 class="text-[20px] md:text-[32px] font-bold mb-10  ">Instantly Capture All<br> Incoming Payments </h1>
+                  <p class="text-[16px] md:text-[20px]">Still logging into each of your bank<br> accounts and wrestling with spreadsheets?<br> Growfin integrates with your bank accounts <br>to extract every incoming transaction in <br>real-time. It's almost magic.</p>
+                  <div class="flex gap-4 mt-10">
+                    <div class="p-4 pe-10">
+                        <div class="pb-5">
+                            <img src="./assets/images/house.png"/>
+                        </div>
+                        <p>Integrates with<br> all major banks</p>
+                    </div>
+                    <div class="border-s-4 p-4 ps-10">
+                        <h1 class="pb-3 text-[40px] font-bold text-[#1E40AF]">100%</h1>
+                        <p>Identification of<br> all transactions</p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Second Container -->
+                <div class="flex-1 flex justify-center items-center  text-[15px] md:text-[24px] bg-[#C4B5FD] py-10 transform-con-2">
+                    <img src="./assets/images/flow-chart.svg"/>
+                </div>
+              </div>
+        </div>
+
+    </section>
+
+    <section class="px-4 secure">
+        <div class="container mx-auto  py-20">
+            <div class="mb-16 text-center">
+                <!-- First Container -->
+                <div class=" mb-8">
+                  <h1 class="text-[25px] md:text-[30px] lg:text-[52px] font-bold  early-customers-title ">Secure, Seamless, and Scalable<br> Cash Application</h1>
+                </div>
+            
+                <!-- Second Container -->
+                <div class="  text-[15px] md:text-[24px]">
+                  
+                  <p>Integrate seamlessly with all your banks and ERP, and keep your auditors<br> happy with state-of-the-art compliance and security measures.</p>
+                </div>
+            </div>
+            <div class="secure-container flex flex-col md:flex-row justify-between  ">
+                <div class="">
+                    <div>
+                        <h1 class="text-[20px] font-bold md:text-[32px] mb-20">Tight ERP Integration</h1>
+                    </div>
+                    <div>
+                        <h1 class="text-[20px] font-bold md:text-[32px] mb-20">Unmatched Security</h1>
+                    </div>
+                    <div>
+                        <h1 class="text-[20px] font-bold md:text-[32px] mb-20">Wide Bank Coverage</h1>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex flex-col md:flex-row gap-10 border-b border-black pb-5 mb-10 ">
+                        <p class="text-[18px]  md:text-[20px]">Keep your books accurate and up-to-date,<br> and the auditors at bay with  a seamless<br> 2-way integration with your ERP.
+                        </p>
+                        <div class="flex justify-center gap-10 items-center">
+                        <div><img src="./assets/images/oracle.png" alt=""></div>
+                        <div><img src="./assets/images/sap.png" alt=""></div>
+                        <div><img src="./assets/images/quickbooks.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row gap-10 border-b border-black pb-5 mb-10 ">
+                        <p class="text-[18px]  md:text-[20px]">
+                            Stay confident and compliant with software<br> that’s approved by the world’s<br> most trusted certifications.
+                        </p>
+                        <div class="flex justify-center gap-10 items-center">
+                        <div><img src="./assets/images/gdpr.png" alt=""></div>
+                        <div><img src="./assets/images/Security.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row gap-10 border-b border-black pb-5 mb-10 ">
+                        <p class="text-[18px]  md:text-[20px]">
+                            Out-of-the-box connection to all your<br> bank accounts across geographies to read <br>payments in real-time.
+                        </p>
+                        <div class="flex justify-center gap-10 items-center">
+
+                            <div><img src="./assets/images/bankofamerica.png" width="100px" alt=""></div>
+                            <div><img src="./assets/images/JP-Morgan-Chase-Logo.png" alt="" width="100px"></div>
+                            <div><img src="./assets/images/wellsfargo.png" alt="" width="70px"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+      
+    <section class="px-4">
+    <section class="container px-20 mx-auto card py-20 mb-20">
+        <h1 class="text-[25px] md:text-[30px] lg:text-[52px] font-bold  text-center card-title mb-14 ">Embrace the Future of Cash<br> Application Today</h1>
+            <div class="buttons flex flex-col sm:flex-row justify-center  gap-4 ">
+            <button class="flex items-center px-8 font-semibold justify-center">
+                Schedule a Demo
+            </button>
+            <button class="flex items-center px-8 font-semibold justify-center">
+                Request Access
+            </button>
+    </div>
+    </section>
+    </section>
+
+    <footer class="bg-black px-4 lg:px-20">
+        <div class="container  mx-auto bg-black py-20 ">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 ">
+            <!-- Box 1 -->
+            <div class=" rounded ">
+            <h1 class="text-[14px] text-[#FFFFFF] py-3">Features</h1>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium ">Strategize</p>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium ">Collaboration </p>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium ">Tracking</p>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium ">Reporting </p>
+            
+            </div>
+            <!-- Box 2 -->
+            <div class="rounded ">
+                <h1 class="text-[14px] text-[#FFFFFF] py-3">What’s in it for you?</h1>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">By Role</p>
+            <ul class="list-disc ms-5">
+                <li class="text-[#FFFFFF] text-[15px] pb-2 font-medium">CFOs and Directors of Finance</li>
+                <li class="text-[#FFFFFF] text-[15px] pb-2 font-medium">Controllers</li>
+                <li class="text-[#FFFFFF] text-[15px] pb-2 font-medium">AR Managers</li>
+                <li class="text-[#FFFFFF] text-[15px] pb-2 font-medium">Collection Teams</li>
+            </ul>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">CSMs, AEs and AMs</p>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">By Tech Stack</p>
+            
+            </div>
+            <!-- Box 3 -->
+            <div class=" rounded ">
+                <h1 class="text-[14px] text-[#FFFFFF] py-3">Resources</h1>
+                <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">Blog</p>
+                <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">Webinars</p>
+                <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">The Casheroes</p>
+                <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">ROI Calculator</p>
+            </div>
+            <!-- Box 4 -->
+            <div class=" rounded ">
+                <h1 class="text-[14px] text-[#FFFFFF] py-3">Company</h1>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">About us</p>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">Careers</p>
+            <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">Sales Book a demo</p>
+            
+            </div>
+            <!-- Box 5 -->
+            <div class=" rounded ">
+                <h1 class="text-[14px] text-[#FFFFFF] py-3">Contact us</h1>
+                <p class=" text-[15px] pb-2 font-medium   email-text ">hello@growfin.ai</p>
+                <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">3082, Moser Way,
+                    Marietta, GA 30060</p>
+            </div>
+
+            <div class=" rounded ">
+                <h1 class="text-[14px] text-[#FFFFFF] py-3">Legal</h1>
+                <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium   ">Terms of use</p>
+                <p class="text-[#FFFFFF] text-[15px] pb-2 font-medium">Privacy policy</p>
+            </div>
+            
+            </div>
+            <div class="flex flex-col md:flex-row gap-[35px] gap-y-5 justify-start items-center mt-[36px]">
+
+                <div class="flex gap-[15px] ">
+                    <img src="./assets/images/linkedin.svg" width="30px" height="30px"/>
+                    <img src="./assets/images/x.svg" width="30px" height="30px"/>
+                    <img src="./assets/images/facebook.svg" width="30px" height="30px"/>
+                    <img src="./assets/images/insta.svg" width="30px" height="30px"/>
+                </div>
+                <div>
+                    <p class=" text-[#FFFFFF] text-[14px]">Copyright © 2023 Growfin. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+</body>
+
+</html>
